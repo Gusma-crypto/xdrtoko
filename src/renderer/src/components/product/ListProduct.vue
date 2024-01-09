@@ -23,16 +23,17 @@
             <tr>
               <th>NO</th>
               <th>Barang</th>
+              <th>Actions</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>PAKU JAMUR</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>BESI KAYU</td>
+            <tr v-for="tutorial in tutorials" :key="tutorial.id">
+              <td>{{tutorial.title}}</td>
+              <td>{{tutorial.descriptions}}</td>
+              <td>
+                <button class="m-1 btn btn-sm btn-success" @click="editTutorial"><i class="fas fa-pencil"></i></button>
+                <button class="m-1 btn btn-sm btn-danger" @click="removeTutorial"><i class="fas fa-trash"></i></button> 
+              </td>
             </tr>
           </tbody>
         </table>
@@ -40,4 +41,33 @@
     </div>
   </div>
 </template>
-<script></script>
+<script>
+import axios from 'axios'
+ const apiclient = axios.create({
+    baseURL:'http://localhost/api',
+    headers:{
+      "Content-type": "application/json",
+    }
+ })
+export default{
+  name:'ListProduct',
+  data(){
+    return {
+      tutorials:[],
+    }
+  },
+  mounted(){
+    this.tampilproduct();
+  },
+  methods:{
+    async tampilproduct(){
+      try {
+          const response = await apiclient.get('/tutorial')
+          this.tutorials = response.data
+      } catch (error) {
+          console.log(error)
+      }  
+    }
+  }
+}
+</script>
