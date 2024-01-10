@@ -1,6 +1,11 @@
 # tokosdr
 Aplikasi Dekstop Toko sederhana dengan electron dan vue js 3
+
+## Menampilkan data
 ![image](https://github.com/Gusma-crypto/xdrtoko/assets/61172794/1a802b19-bbfa-49a7-baff-9daa94f48aba)
+
+## Edit Data
+![image](https://github.com/Gusma-crypto/xdrtoko/assets/61172794/4c9ba2d0-6416-424f-aa6f-45e5ecc8221a)
 
 
 An Electron application with Vue
