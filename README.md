@@ -1,5 +1,5 @@
 # tokosdr
-Aplikasi Dekstop Toko sederhana dengan electron dan vue js 3
+Aplikasi Dekstop Toko sederhana dengan electron dan vue js 3 Dikembangkan oleh [astwebmedia](https://astwebmedia.my.id) + [Blog-Infosinau](https://infosinau.my.id)
 
 ## Menampilkan data
 ![image](https://github.com/Gusma-crypto/xdrtoko/assets/61172794/1a802b19-bbfa-49a7-baff-9daa94f48aba)
