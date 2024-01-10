@@ -1,7 +1,7 @@
 <template>
   <div class="card m-3 shadow rounded">
     <div class="card-body">
-      <h5 class="card-title">judul</h5>
+      <h5 class="card-title">Tambah Data</h5>
       <div class="mb-3">
         <label for="kategori" class="form-label">Kategori Produk</label>
         <input type="text" class="form-control" id="kategori" placeholder="Masukan Kategori " />

@@ -15,8 +15,8 @@
         <RouterLink to="/" class="btn btn-outline-success me-2"
           ><i class="fas fa-home"></i> Home</RouterLink
         >
-        <RouterLink to="/transaksi" class="btn btn-outline-warning me-2"
-          ><i class="fas fa-shopping-cart"></i> Transaksi</RouterLink
+        <RouterLink to="/listproduct" class="btn btn-outline-warning me-2"
+          ><i class="fas fa-shopping-cart"></i> Product</RouterLink
         >
         <RouterLink to="/logout" class="btn btn-outline-danger me-2"
           ><i class="fas fa-sign-out"></i
