@@ -13,6 +13,7 @@ An Electron application with Vue
 ## Recommended IDE Setup
 
 - [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- References :  [Tutorial101](https://tutorial101.blogspot.com/2023/08/laravel-10-vue-js-vite-crud-create-read.html?m=1) + [TutorialVue3 Axios ](https://www.bezkoder.com/vue-3-typescript-axios)
 
 ## Project Setup
 
